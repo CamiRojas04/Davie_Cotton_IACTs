@@ -1,6 +1,6 @@
 # Fenomenología del haz incidente
  Debido a que el haz que interactúa con el telescopio no es un haz colimado simple, sino una superposición compleja de frentes de onda,
- es importante caracterizarlo en términos de su morfología geométrica.
+ es importante caracterizarlo en términos difractivos.
 
  ## Geometría de Emisión
  ### Morfología del Cono Cherenkov
@@ -18,8 +18,18 @@ En general, ambos grupos de fotones tienden a caer a la misma distancia radial r
 
 $$\frac{dN}{dx} \approx 2\pi\alpha \left(1 - \frac{1}{\beta^2 n^2}\right) \int_{\lambda_1}^{\lambda_2} \frac{1}{\lambda^2} d\lambda$$
 
-- **Densidad Lateral (LDF):** La distribución lateral de luz puede graficarse en función de cuántos fotones caen por metro cuadrado en función de la distancia al centro del impacto ($r$). Esta estructura puede diferenciarse de acuerdo a tres regímenes:
+- **Densidad Lateral (LDF):** La distribución lateral de luz puede graficarse en función de cuántos fotones caen por metro cuadrado en función de la distancia al centro del impacto ($r$). Esta estructura puede diferenciarse de acuerdo a tres regímenes, los cuales se describirán a partir del siguiente marco de referencia determinado por el sistema coordenado:
+  - *Origen ($O$):* Centro del espejo del telescopio.
+  - *Eje Óptico* ($\hat{z}$): Vector unitario apuntando al cenit (vertical local).
+  - *Eje de la Cascada* ($\hat{u}$): Vector unitario de la trayectoria de la partícula primaria. Se asume incidencia vertical para simplificar la demostración matemática ($\hat{u} = -\hat{z}$).
+  - *Parámetro de Impacto* ($R$): Distancia perpendicular desde el eje de la cascada hasta el telescopio.
+  - *Punto de Emisión* ($P$): Un punto arbitrario en la cascada a una altura $H$ sobre el suelo.
 
-1 *Régimen de Simetría Axial* ($R\approx 0$)
-El eje óptico del telescopio está alineado exactamente con el eje de la cascada. La partícula se propaga paralela al eje óptico y, dado que la emisión Cherenkov es azimutalmente simétrica alrededor de la trayectoria de la partícula, el telescopio ve la misma intensidad desde cualquier ángulo alrededor del centro.
+1 *Régimen de Simetría Azimutal* ($R\approx 0$)
+El eje óptico del telescopio ($\hat{z}$) está alineado exactamente con el eje de la cascada ($\hat{u}$). La partícula se propaga paralela al eje óptico a velocidad $v \approx c(-\hat{z})$. Además, el fotón emitido con un vector de onda $k$ tal que el ángulo entre la trayectoria de la partícula y el fotón coincide con el ángulo del cono Cherenkov:
+
+$$\theta_{inc} = \text{ángulo}(\vec{k}, \hat{z}) = \theta_c$$
+
+
+
 
