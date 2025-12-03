@@ -20,6 +20,6 @@ $$\frac{dN}{dx} \approx 2\pi\alpha \left(1 - \frac{1}{\beta^2 n^2}\right) \int_{
 
 - **Densidad Lateral (LDF):** La distribución lateral de luz puede graficarse en función de cuántos fotones caen por metro cuadrado en función de la distancia al centro del impacto ($r$). Esta estructura puede diferenciarse de acuerdo a tres regímenes:
 
-1 *Régimen de Simetría Axial ($R\approx 0$)*
+1 *Régimen de Simetría Axial* ($R\approx 0$)
 El eje óptico del telescopio está alineado exactamente con el eje de la cascada. La partícula se propaga paralela al eje óptico y, dado que la emisión Cherenkov es azimutalmente simétrica alrededor de la trayectoria de la partícula, el telescopio ve la misma intensidad desde cualquier ángulo alrededor del centro.
 
